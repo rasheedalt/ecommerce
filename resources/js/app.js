@@ -12,8 +12,8 @@ Vue.use(axios);
 
 
 
-axios.defaults.baseURL = 'https://shope-api.herokuapp.com/api';
-//axios.defaults.headers.common['Authorization'] = ''
+axios.defaults.baseURL = 'http://localhost:8000/api';
+//axios.defaults.headers.common['Authorization'] = '';
 
 
 import App from './App.vue';

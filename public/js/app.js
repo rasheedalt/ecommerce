@@ -51014,7 +51014,7 @@ __webpack_require__.r(__webpack_exports__);
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js"); //Vue.use(VueRouter);
 
 Vue.use(axios__WEBPACK_IMPORTED_MODULE_0___default.a);
-axios__WEBPACK_IMPORTED_MODULE_0___default.a.defaults.baseURL = 'https://shope-api.herokuapp.com/api'; //axios.defaults.headers.common['Authorization'] = ''
+axios__WEBPACK_IMPORTED_MODULE_0___default.a.defaults.baseURL = 'http://localhost:8000/api'; //axios.defaults.headers.common['Authorization'] = '';
 
 
 Vue.component('App', _App_vue__WEBPACK_IMPORTED_MODULE_2__["default"]); // const router = new VueRouter({
